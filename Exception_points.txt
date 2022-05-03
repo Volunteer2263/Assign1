@@ -1,0 +1,26 @@
+to create user defined exception 
+
+    inherit Exception or RuntimeException 
+
+If we inherit Exception then our class become checked exception 
+if we inherits Runtime exception then it become unchecked excption 
+=================================
+exception 
+
+1) checked   --> its mandatory to handle exception 
+2) unchecked  
+
+
+======two ways to handle exception ===============
+1) try ..catch
+2) pass exception to calling program ( throws)
+====================================
+
+exception handling 5 keyword
+1) try
+2) catch
+3) throw  --> explicitly raise exception 
+4) throws  --> written next to function name --> informs that this function will throw exception 
+                   -- by writing throws we pass exception to calling program 
+                   -- informs that no handler is defined in function 
+5) finally 
